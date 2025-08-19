@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: ScinPho
+Version: 0.1.0
+Summary: Monte Carlo simulation package for simulating and exporting scintillated photon coordinates. Primary use for project associated with LumaCam
+Author-email: Camille Gillespie <gillec4@mcmaster.ca>
+License: MIT
+Project-URL: Homepage, https://github.com/camilleqg/ScinPho
+Project-URL: Issues, https://github.com/camilleqg/ScinPho/issues
+Keywords: ScinPho,cli,photons,scintillated,simulation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy<2.0,>=1.26.4
+Requires-Dist: pandas<3.0,>=2.2.2
+Requires-Dist: scikit-learn<2.0,>=1.5.1
+Dynamic: license-file

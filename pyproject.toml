@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ScinPho"                     # pick a unique name on PyPI
+version = "0.1.0"                   # bump on every release
+description = "Monte Carlo simulation package for simulating and exporting scintillated photon coordinates. Primary use for project associated with LumaCam"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Camille Gillespie", email = "gillec4@mcmaster.ca" }]
+keywords = ["ScinPho", "cli", "photons", "scintillated", "simulation"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.26.4, <2.0", 
+    "pandas>=2.2.2, <3.0", 
+    "scikit-learn>=1.5.1, <2.0" 
+    ]
+
+[project.urls]
+Homepage = "https://github.com/camilleqg/ScinPho"
+Issues = "https://github.com/camilleqg/ScinPho/issues"
+
+# This is what makes `ScinPho` appear as a shell command after install
+[project.scripts]
+ScinPho = "ScinPho.cli:main"
+
+# Tell setuptools where to find your package (src layout)
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

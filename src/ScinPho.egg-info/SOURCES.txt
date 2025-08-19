@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/ScinPho.egg-info/PKG-INFO
+src/ScinPho.egg-info/SOURCES.txt
+src/ScinPho.egg-info/dependency_links.txt
+src/ScinPho.egg-info/entry_points.txt
+src/ScinPho.egg-info/requires.txt
+src/ScinPho.egg-info/top_level.txt
+src/ScinPho_sim/__init__.py
+src/ScinPho_sim/cli.py
+src/ScinPho_sim/sim.py
