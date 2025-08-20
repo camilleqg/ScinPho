@@ -1,2 +1,0 @@
-[console_scripts]
-ScinPho = ScinPho.cli:main
